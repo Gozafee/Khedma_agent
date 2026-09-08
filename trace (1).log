@@ -1,0 +1,23 @@
+[
+  {
+    "turn": 1,
+    "input": "اسمي يوسف، رقم هويتي 123456",
+    "extracted": {},
+    "result": "Missing: name, national_id, reason, location",
+    "tokens": 50
+  },
+  {
+    "turn": 2,
+    "input": "عايز أجدد الجواز عشان مسافر",
+    "extracted": {},
+    "result": "Missing: name, national_id, reason, location",
+    "tokens": 100
+  },
+  {
+    "turn": 3,
+    "input": "أنا في الخرطوم",
+    "extracted": {},
+    "result": "Missing: name, national_id, reason, location",
+    "tokens": 150
+  }
+]
