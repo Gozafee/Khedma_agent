@@ -1,0 +1,38 @@
+[
+  {
+    "turn": 1,
+    "input": "اسمي يوسف، رقم هويتي 123456",
+    "extracted": {
+      "name": "يوسف",
+      "national_id": "123456",
+      "reason": null,
+      "location": null
+    },
+    "result": "Missing fields: reason, location",
+    "tokens": 20
+  },
+  {
+    "turn": 2,
+    "input": "عايز أجدد الجواز عشان مسافر",
+    "extracted": {
+      "name": "",
+      "national_id": "",
+      "reason": "مسافر",
+      "location": ""
+    },
+    "result": "Missing fields: location",
+    "tokens": 40
+  },
+  {
+    "turn": 3,
+    "input": "أنا في الخرطوم",
+    "extracted": {
+      "name": "",
+      "national_id": "",
+      "reason": "",
+      "location": "الخرطوم"
+    },
+    "result": "All data collected successfully!",
+    "tokens": 60
+  }
+]
