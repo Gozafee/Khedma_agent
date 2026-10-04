@@ -1,0 +1,5 @@
+{"query": "شنو المستندات المطلوبة لتجديد الجواز؟", "expected_doc": "doc_001", "expected_keywords": ["جواز", "هوية", "صور"]}
+{"query": "كم رسوم تجديد جواز السفر؟", "expected_doc": "doc_002", "expected_keywords": ["5000", "جنيه", "رسوم"]}
+{"query": "كم تستغرق مدة تجديد الجواز؟", "expected_doc": "doc_003", "expected_keywords": ["أسبوع", "مدة"]}
+{"query": "ما شروط تجديد جواز السفر؟", "expected_doc": "doc_004", "expected_keywords": ["شروط", "هوية", "ساري"]}
+{"query": "كيف أجدد الجواز وأنا خارج السودان؟", "expected_doc": "doc_006", "expected_keywords": ["سفارة", "قنصلية", "خارج"]}
