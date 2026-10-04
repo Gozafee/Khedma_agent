@@ -1,0 +1,66 @@
+[
+  {
+    "strategy": "direct",
+    "simulate_failure": false,
+    "docs": [
+      "doc_002",
+      "doc_004",
+      "doc_003"
+    ],
+    "latency": 36.84976530075073,
+    "tokens": 45,
+    "recovered": false
+  },
+  {
+    "strategy": "decomposed",
+    "simulate_failure": false,
+    "docs": [
+      "doc_002",
+      "doc_004",
+      "doc_001"
+    ],
+    "latency": 48.9334282875061,
+    "tokens": 116,
+    "recovered": false
+  },
+  {
+    "strategy": "plan_critic",
+    "simulate_failure": false,
+    "docs": [
+      "doc_002",
+      "doc_004",
+      "doc_003"
+    ],
+    "latency": 44.43305063247681,
+    "tokens": 34,
+    "recovered": false
+  },
+  {
+    "strategy": "direct",
+    "simulate_failure": true,
+    "docs": [],
+    "latency": 8.462364673614502,
+    "tokens": 29,
+    "recovered": false
+  },
+  {
+    "strategy": "decomposed",
+    "simulate_failure": true,
+    "docs": [],
+    "latency": 15.374927282333374,
+    "tokens": 37,
+    "recovered": false
+  },
+  {
+    "strategy": "plan_critic",
+    "simulate_failure": true,
+    "docs": [
+      "doc_002",
+      "doc_003",
+      "doc_005"
+    ],
+    "latency": 61.05733370780945,
+    "tokens": 58,
+    "recovered": true
+  }
+]
