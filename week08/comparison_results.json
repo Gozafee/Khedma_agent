@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "agent_type": "single",
+      "query": "ما شروط تجديد جواز السفر؟",
+      "hit": true,
+      "answer_ok": true,
+      "tokens": 242,
+      "latency": 58.34249567985535
+    },
+    {
+      "agent_type": "single",
+      "query": "كم رسوم تجديد جواز السفر؟",
+      "hit": true,
+      "answer_ok": true,
+      "tokens": 158,
+      "latency": 23.620392084121704
+    },
+    {
+      "agent_type": "crew",
+      "query": "ما شروط تجديد جواز السفر؟",
+      "hit": true,
+      "answer_ok": true,
+      "tokens": 1380,
+      "latency": 236.86141443252563
+    },
+    {
+      "agent_type": "crew",
+      "query": "كم رسوم تجديد جواز السفر؟",
+      "hit": true,
+      "answer_ok": false,
+      "tokens": 770,
+      "latency": 128.99119901657104
+    }
+  ],
+  "single_agg": {
+    "agent_type": "single",
+    "avg_tokens": 200.0,
+    "avg_latency": 40.981443881988525,
+    "hit_rate": 100.0,
+    "answer_rate": 100.0
+  },
+  "crew_agg": {
+    "agent_type": "crew",
+    "avg_tokens": 1075.0,
+    "avg_latency": 182.92630672454834,
+    "hit_rate": 100.0,
+    "answer_rate": 50.0
+  }
+}
