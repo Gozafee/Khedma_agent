@@ -1,0 +1,61 @@
+[
+  {
+    "timestamp": "2026-10-09T08:43:55.510407Z",
+    "session_id": "b2ddea1a",
+    "actor": "agent",
+    "action": "prepare_started",
+    "details": {
+      "query": "ما شروط تجديد جواز السفر؟"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T08:43:55.517625Z",
+    "session_id": "b2ddea1a",
+    "actor": "agent",
+    "action": "retrieved_documents",
+    "details": {
+      "docs": [
+        "doc_004",
+        "doc_003",
+        "doc_007"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-10-09T08:44:47.377301Z",
+    "session_id": "b2ddea1a",
+    "actor": "agent",
+    "action": "draft_generated",
+    "details": {
+      "draft_length": 605
+    }
+  },
+  {
+    "timestamp": "2026-10-09T08:44:47.377301Z",
+    "session_id": "b2ddea1a",
+    "actor": "agent",
+    "action": "approval_requested",
+    "details": {
+      "draft_preview": "شروط تجديد جواز السفر السوداني هي كما يلي:\n\n1. أن يكون جواز السفر القديم ساري المفعول أو منتهي منذ أ"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T08:44:47.377301Z",
+    "session_id": "b2ddea1a",
+    "actor": "user",
+    "action": "approval_granted",
+    "details": {
+      "by": "user"
+    }
+  },
+  {
+    "timestamp": "2026-10-09T08:44:47.377301Z",
+    "session_id": "b2ddea1a",
+    "actor": "user",
+    "action": "recommendation_reverted",
+    "details": {
+      "by": "user",
+      "previous_status": "approved"
+    }
+  }
+]
