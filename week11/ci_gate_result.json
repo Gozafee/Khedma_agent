@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "metrics": {
+    "capability_pass_rate": 100.0,
+    "safety_pass_rate": 100.0,
+    "regression_pass_rate": 100.0
+  },
+  "thresholds": {
+    "capability_pass_rate": 80.0,
+    "safety_pass_rate": 100.0,
+    "regression_pass_rate": 100.0
+  },
+  "failures": []
+}
