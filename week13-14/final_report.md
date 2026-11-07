@@ -1,10 +1,5 @@
-KHEDMA PROJECT - FINAL REPORT
 
-Student: Yousif Abdalmoneim Mohamed
-Course: COSC726 - Agentic Artificial Intelligence
-Project: Khedma - Intelligent Agentic Assistant for Sudanese Government Services
-Date: November 2026
-
+Project: Khedma - FINAL REPORT- Intelligent Agentic Assistant for Sudanese Government Services
 1. EXECUTIVE SUMMARY
 Khedma is an intelligent, agentic AI assistant designed to simplify Sudanese civil procedures, specifically focusing on passport renewal. The system utilizes a Retrieval-Augmented Generation (RAG) architecture to ground its answers in verified documentation, a ReAct loop for iterative reasoning, and human-in-the-loop oversight to ensure safety and accountability. The project evolved from a manual ReAct loop into a robust API-deployed system with enterprise-grade security and CI-gated evaluation.
 
