@@ -31,3 +31,5 @@
 - `week10/` — Security Red-Team
 - `week11/` — Evaluation Freeze + CI Gate
 - `evals/` — Evaluation datasets
+## Final Demo Video 
+[watch the demo video here](https://drive.google.com/file/d/1p_K0Hqu3YHvkOXSJ_rZX7u0wWOGT7YC3/view?usp=sharing)

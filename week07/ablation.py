@@ -127,3 +127,4 @@ if __name__ == "__main__":
     with open(trace_path, "w", encoding="utf-8") as f:
         json.dump(agent.trace, f, indent=2, ensure_ascii=False)
     print(f"✅ Trace saved to {trace_path}")
+    
